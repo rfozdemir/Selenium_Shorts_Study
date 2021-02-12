@@ -1,0 +1,8 @@
+POM:
+-This pattern helps enhance the tests by making them highly maintainable, reducing the code duplication
+and hiding data the inner implementation from tests
+-By using it we can make robust tests scripts and reduce code duplication.
+-To implement the POM model in tests, we need to create a Page object class for each page that is being tested.
+-The test need not worry about how input controls are used for the login page, their location details,
+and so on.
+-Login Tests will instantiate the login page object and call the login method by passing the username and password.

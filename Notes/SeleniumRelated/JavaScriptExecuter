@@ -1,0 +1,9 @@
+Selenium WebDriver API provides the ability to execute Java Script code with the browser window. this is a very
+useful feature when tests need to interact with the page using  java script.
+-Using this Api, client side JS code can also be tested using Selenium WebDriver.
+-By casting the WebDriver instance to a JavaScriptExecutor interface, we can execute js code in selenium WebDriver:
+
+
+  JavaScriptExecutor js=(JavaScriptExecutor) driver;
+
+  String Title=(String) js.executeScript("return document.title")

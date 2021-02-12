@@ -1,0 +1,9 @@
+-HTML frames allow developers to present documents in multiple views, which may be in a separate child window
+ or sub-window
+ -Developers can embed external documents or documents from another domain using the <iframe> tag,also known as
+ frames. Various social media web sites provide buttons that can be embedded in your web applications
+ to link to these websites.
+ -There is another HTML document inside a frame tag and you can find web elements from there
+ -Advertisement banner are usually being frame. And you have to handle it. If you are going to text in  iframe
+ you have let selenium know Because Selenium can't realize there is a frame if you don't tell. And it will throw an
+exception. So You have to handle by using "switchTo().frame("location")" or "switchTo().defaultContent();"

@@ -1,0 +1,2 @@
+driver.quit() ---> will quit every page in the window
+driver.close() ---> will close current page

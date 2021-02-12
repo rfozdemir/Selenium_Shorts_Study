@@ -1,0 +1,10 @@
+Checkbox:
+Basic way
+Example:
+input[type='checkbox']:nth-of-type(n) ---> you are gonna choose which one
+
+
+Radio Buttons:
+Example:
+******* "//label[text()='Yellow']/preceding-sibling::input"  ---> this is movement between of elements  ********
+-is.Enabled() method will be used here in order to finding out whether it is enabled or not

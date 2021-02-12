@@ -1,0 +1,51 @@
+Why Synchronize?
+-No such Element exception
+-Code runs faster than browser can handle
+-Element appears on the HTML after certain time
+-Element is in the HTML but appears on the page after certain time
+
+What can I do?
+===Thread.sleep(do not use this)
+===Implicit wait
+===Explicit wait
+
+Thread.Sleep
+The method that pauses the execution of the Java program
+Not considered a good practice
+Too much use will make test long and heavy
+
+
+Implicit Wait
+-driver.manage().timeouts().implicitlyWait()
+-default is 0
+-makes driver continue polling the DOM for the duration specified
+-Stops polling as soon as the element is found
+-will throw exception after the time expires if element not found
+-will apply until the end of WebDriver instance or changed again
+
+Explicit Wait
+-can be used to wait for certain condition
+-wait until element is visible
+-wait until element is available
+-wait until element is clickable
+-wait until element is not available
+
+=====WebDriverWait wait= new WebDriverWait(driver,10);
+wait.until(ExpectedConditions.elementToBeClickable(By.xpath());
+-will wait 10 seconds using the locator provided
+-Does not depend on the value of implicit wait
+-Only applies once when that line called
+-will continue waiting if the elements is loaded but not clickable
+
+
+
+
+
+
+
+
+
+
+
+
+

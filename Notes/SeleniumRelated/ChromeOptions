@@ -1,0 +1,12 @@
+   WebDriverManager.chromedriver().setup();
+
+        ChromeOptions options=new ChromeOptions();
+        options.addArguments("--disable-popup-blocking");
+                options.addArguments("test-type");
+                options.addArguments("allow-running-insecure-content");
+                options.addArguments("disable-extensions");
+                options.addArguments("--ignore-certificate-errors");
+
+        ChromeDriver chrome = new CahromeDriver(options);
+
+         you can add more and more argument.

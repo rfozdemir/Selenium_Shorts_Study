@@ -1,0 +1,16 @@
+Headers
+Additional information about request and response.
+It works like a map key & value format
+What we send with the headers?
+Content types(application/json , application/xml)
+Credentials, Authentication , (username,password, different types   )
+
+There are two main headers (request and response)
+REQUEST
+==Credentials, Authentication , (username,password, different types   )
+==Accept, application/json ->hey api, please send me json respond
+==Accept, application/xml -> please send me xml response
+RESPONSE
+==Content-type, application/json -> hey client, I am sending you json body
+==Content-type, application/xml -> hey client, I am sending you xml body
+

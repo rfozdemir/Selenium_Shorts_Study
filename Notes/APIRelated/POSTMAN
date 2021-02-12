@@ -1,0 +1,17 @@
+POSTMAN
+is a RESTAPI client tool that helps to test REST API urls
+It is popular for both developers and testers
+We can use both manual and automation purposes
+
+---Client(Postman) ---> get request ---> SERVER(SPARTAN API) --->Spartan DB
+                  <----Json Response <----
+
+   HTTP status Codes
+   200-> OK
+   400->Clients Error
+   500->Server Api's Error
+
+   First Test Case
+   When I send a GET request to Spartan
+-I check status code
+-I check Our body when I get response

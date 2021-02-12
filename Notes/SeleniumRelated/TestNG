@@ -1,0 +1,40 @@
+TEST NG
+-It is inspired from JUnit
+-Test NG has more annotations
+-Enables unit testing and functional testing
+-Provide assertions for verifying
+-User annotations to control check flow
+-Generate reports
+-assertTrue(element.isDisplayed())
+-assertEquals("a","a")
+
+Annotations
+
+@Test
+Indicates that method is a test method. Test method where we do assertions.
+
+@BeforeClass
+Method with this annotation will always run once before all of the other methods in this class
+
+@AfterClass
+Method with this annotations will always run once after all of the method in this class
+
+@BeforeMethod
+Method with this annotation will always run once before every test method
+
+@AfterMethod
+Method with this annotations will always run once after every test method
+
+@BeforeSuite
+@AfterSuite
+
+How to Skip Test cases?
+-throw new SkipException("Just Skipped")
+
+
+
+--Test NG is a testing framework
+--Centralized controller
+--Batch execution
+--Optional execution
+

@@ -1,0 +1,42 @@
+What is API?
+API is small piece of code that enables different applications and services to communicate and share information
+with each other
+Api is also called Web Service
+skyscanner --->request--->   United's API ---> United database
+United's database--> United's API--> response--> skyscanner.com
+-There are 2 types of API
+1.SOAP
+2.REST
+
+SOAP:
+-Soap is for communication between applications
+-Soap is format for sending messages
+-Soap communicates via internet
+-Soap is platform independent
+-Soap is based on XML(Communication is based on XML format)
+REST:
+-Rest is a lightweight option for developing web services using the HTTP protocol
+It can structure data into XML or any other machine readable format , but usually JSON
+
+SOAP vs REST:
+-Soap is not popular anymore
+-80% of the market is using REST
+-Soap is xml Response, Rest is XML and json
+-Rest is purely http protocol
+-Soap is more complicated
+
+
+
+Api testing requires an application to interact with API. In order to test an API, you will need to
+1. Use testing tool to drive the API
+2. Write your own codes to test the API
+Why API testing is important ?
+1. Faster to test than GUI testing
+2. Without a UI, It can be tested earlier in the life cycle
+3. Becoming more popular in the industry
+4.Time efficiency vs functional and validation testing
+5.Cost effective/Reduce testing Cost
+
+
+
+

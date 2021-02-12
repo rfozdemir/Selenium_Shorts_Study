@@ -1,0 +1,9 @@
+Parameters:
+-They are options you can pass with the endpoint to influence the response
+2 types of parameters
+-Query parameters
+-path Parameters
+
+  PathPARAMETER--> is a part of URL and followed by the end of full resources url
+  -54.204.128.200:8000/api/spartans/{id}
+  Query PARAMETER--> IT is not part of url and passed in key- value forma

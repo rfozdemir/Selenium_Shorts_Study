@@ -1,0 +1,2 @@
+String title=driver.getTitle();
+driver.manage().window().maximize(); --->it will maximize window instead of full screen

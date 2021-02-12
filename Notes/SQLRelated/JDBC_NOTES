@@ -1,0 +1,9 @@
+JDBC used for retrieve data and update data
+JDBC is the industry standard for database independent connectivity between the Java programming language
+and a wide range of databases
+Java application -->JDBC API -->JDBC Driver Manager --> oracle, sql , mysql
+3 Important Steps in JDBC
+-first:--> Connection: helps our java project connect to database
+-second:--> Statement: Helps to write and execute SQL query
+-third: ResultSet-->  A Data structure where we can store the data that came from database
+(Update)-->INSERT, UPDATE, DELETE, ALTER, TRUNCATE, DROP statements

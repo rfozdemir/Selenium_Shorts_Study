@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+    <test name="Calender events tests">
+<classes>
+    <class name="tests.FramesDemo"></class>
+</classes>
+  </test>
+<!--    <test name="Calls test">-->
+<!--        <classes>-->
+<!--            <class name="tests.CheckBox"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--   <test name="LoginTest">-->
+<!--      <classes>-->
+<!--          <class name="tests.FramesDemo">-->
+
+<!--          </class>-->
+<!--      </classes>-->
+<!--   </test>-->
+</suite>

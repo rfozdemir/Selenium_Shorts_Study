@@ -1,0 +1,8 @@
+driver.get(url):        ---> To open URL, open some website
+driver.navigate.to(url) --->Load new page in the current browser window
+driver.navigate.back()  --->Move in the browser history to previous URL
+driver.navigate.forward() --->Move forward in the browser history, Does nothing if we are on the latest page viewed
+driver.navigate.refresh() --->Load a new web page in the current browser window
+Thread.sleep(3000) ---> will put on hold current run on 3 seconds
+driver.close() --->will close web browser
+driver.getTitle() ---> it will get title and return it String

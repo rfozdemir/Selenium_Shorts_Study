@@ -1,0 +1,76 @@
+By ID:
+-It is most efficient and preferred way to locate an element. Because it is always must be unique every element.
+
+
+By TagName:
+-For example "<h1>practice</h1>" here "h1" is the tag name if you locate By tag name you can get text or some
+useful thing from that element. getText() wil give you " practice"
+
+
+By Name:
+- name is attribute
+
+By className:
+-"class" in this case refers to the attribute on the DOM element. Often in practical use there are many DOM elements
+with the same class name, thus finding multiple elements becomes the more practical option over finding the first
+element.
+<div class="cheese"> <span>Cheddar </span>   </div>
+<div class="cheese"> <span>Gouda </span> </div>
+--->  List <WebElement> cheeses =driver.findElements(By.className("cheese"));
+
+
+By LinkText:
+-find the link element with matching visible text.
+Example of how to find an element that looks like this:
+<a href="http//:www.google.com/search?q=cheese">cheese</a>
+--above expression your text is "cheese". so linkedText means cheese don't forget then you can click by using
+your text
+
+By Partial Link Text:
+Find the link element with partial matching visible text.
+
+
+
+By Xpath:
+----Relative and Absolute
+--Absolute: is longer one, you are starting from root to last
+--Relative:
+-always start with "//" 2 front slashes
+-tagname of element
+-@-select attribute
+-attribute - Attribute name of the element
+-value -value of the attribute
+-and "//tagname[@attribute='value'];" ----> DON'T FORGET this structure
+Example:
+<input type="text" name="example">  </input>
+"//input[@name="example"]"----> This is our Xpath
+Example:
+"//a[.='Context Value']"
+Example:
+""//label[text()='Yellow']/preceding-sibling::input"
+
+
+By CSS Selector:
+Css is language that describes the style of HTML document. CSS describes how HTML elements should be displayed.
+one of powerful method
+-It is faster than Xpath so it is more preferable
+<div id="food>
+<span class="dairy">milk</span>
+<span class="dairy aged">cheese</span>
+</div>
+-most important format is "span[class='dairy aged']"   --->>DON'T FORGET THIS FORMAT
+- another format is "#food span.dairy.aged"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+HOW DO YOU TEST REST API?
+
+***I verify if each Rest API  end point is working as expected
+***I send POST, PUT, GET, DELETE type of request and verify response status code and response body, header
+
+***I also do positive and negative testing of API.
+***When I do positive testing, I send valid request parameters, valid headers, valid request json body and verify
+that response status code is 200 successful and Json response body data is also matching the expected.
+
+*** When I do negative testing, I send invalid request parameters, or invalid headers, or invalid request json body
+and verify that response status code is not 200 and Json response body contains error message
+===========
+Documentation of API : Swagger UI
+Manual Testing of API : Postman, SOAP UI
+Automated Testing of API : Rest - Assured Library in Java
+
